@@ -39,6 +39,10 @@ main {
   background-color: #ffffff37;
 }
 
+html.light .menu-button.active {
+    background-color: #f4f4f437;
+}
+
 html.light .ul-menu a{
     color: #000000;
 }

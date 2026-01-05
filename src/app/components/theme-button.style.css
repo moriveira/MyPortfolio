@@ -18,6 +18,19 @@ html.light .theme-btn{
     background-color: var(--secondary-color);
 }
 
+html.light .user-text, html.light .project-title {
+  color: var(--primary-color);
+}
+
+html.light .mini-project-item a, html.light .project-item a {
+  background-color: #ab6565;
+}
+
+html.light .each-skill {
+  background-color: #ab6565;
+}
+
+
 .theme-btn::before {
   content: "";
   position: absolute;
@@ -45,4 +58,31 @@ html.light .theme-btn{
 .icon {
     color: #ffffff;
     font-size: 1.5rem;
+}
+
+html.light .contact-box {
+  background-color: #c98888;
+  color: #000000;
+  border: 3px solid var(--third-color);
+}
+
+html.light .options {
+  color: #000000;
+  border: 3px solid var(--third-color);
+}
+
+html.light .message {
+  background-color: #a86767;
+}
+
+html.light .chatHeader {
+  background-color: #a45454;
+}
+
+html.light .back-button a {
+  color: #000000;
+}
+
+html.light .chatHeader img {
+  border: 2px solid #c98888;
 }

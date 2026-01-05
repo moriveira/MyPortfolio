@@ -4,6 +4,7 @@ import javascriptIcon from "../assets/javascript-icon.png"
 import typescriptIcon from "../assets/typescript-icon.png"
 import cssIcon from "../assets/css-icon.png"
 import reactIcon from "../assets/react-icon.png"
+import engIcon from "../assets/eng-icon.png"
 
 export default function Skills() {
     return (
@@ -66,6 +67,20 @@ export default function Skills() {
                     <div className="skills-info skill4-info">
                         <h1>Typescript</h1>
                         <p>beginner</p>
+                    </div>
+                    
+                </div>
+                <div className="each-skill skill5">
+                    <Image
+                        src={engIcon}
+                        alt="skill1"
+                        width={100}
+                        height={100}
+                        className="skills-img skill5-img"
+                    />
+                    <div className="skills-info skill5-info">
+                        <h1>English</h1>
+                        <p>intermediary</p>
                     </div>
                     
                 </div>
