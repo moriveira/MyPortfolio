@@ -1,0 +1,48 @@
+.theme-btn {
+    position: relative; /* necessário para que o ::before fique em relação ao botão */
+    line-height: 0;
+    border: none;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+
+html.light .theme-btn{
+    background-color: var(--secondary-color);
+}
+
+.theme-btn::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;       
+  width: 2px;         
+  height: 6px;        
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: .5s all;
+}
+
+.theme-btn:hover::before {
+  height: 24px; 
+  bottom: -30px;
+}
+
+.theme-btn:hover {
+    transform: translateY(-30px);
+}
+
+.container-theme-button {
+  padding-bottom: 50px;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+}

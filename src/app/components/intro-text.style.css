@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #1d0c0c;
+    --secondary-color: #8e2626;
+    --third-color: #732d2d7f;
+}
+
+html.light .intro{
+    color: var(--secondary-color);
+}
+
+.intro {
+  display: flex;
+  font-size: clamp(1.5rem, 3vw, 3.5rem);
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    font-size: 1rem;
+    margin-top: 25%;
+  }
+}
+

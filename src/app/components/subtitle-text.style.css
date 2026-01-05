@@ -1,0 +1,16 @@
+.subtitle-text {
+    font-size: clamp(0.9rem, 1vw, 1.2rem);
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+html.light .subtitle-text{
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 680px) {
+    .subtitle-text {
+        text-align: center;
+    }
+}
